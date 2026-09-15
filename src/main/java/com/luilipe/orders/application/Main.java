@@ -1,6 +1,10 @@
-package M06_Enumeracao_e_Composicao.ClientOrder.application;
+package com.luilipe.orders.application;
 
-import M06_Enumeracao_e_Composicao.ClientOrder.entities.*;
+import com.luilipe.orders.domain.Client;
+import com.luilipe.orders.domain.Order;
+import com.luilipe.orders.domain.OrderItem;
+import com.luilipe.orders.domain.OrderStatus;
+import com.luilipe.orders.domain.Product;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -19,11 +19,18 @@ O programa recebe os dados de um cliente e de um pedido, adiciona os produtos e 
 ## Estrutura
 
 ```text
-Client
-  └── Order
-        ├── OrderStatus
-        └── OrderItem
-              └── Product
+src/
+├── main/java/com/luilipe/orders/
+│   ├── application/
+│   │   └── Main.java
+│   └── domain/
+│       ├── Client.java
+│       ├── Order.java
+│       ├── OrderItem.java
+│       ├── OrderStatus.java
+│       └── Product.java
+└── test/java/com/luilipe/orders/application/
+    └── OrderSystemTest.java
 ```
 
 - `Client`: armazena os dados do cliente;
@@ -77,7 +84,7 @@ O projeto possui um teste que simula a entrada dos dados e verifica:
 - o cliente e o status do pedido;
 - as informações exibidas no resumo.
 
-Para executar, abra a classe `ClientOrderAutomaticTest` e rode o método `main`.
+Para executar, abra a classe `OrderSystemTest` e rode o método `main`.
 
 Resultado esperado:
 

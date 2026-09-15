@@ -1,4 +1,4 @@
-package M06_Enumeracao_e_Composicao.ClientOrder.entities;
+package com.luilipe.orders.domain;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

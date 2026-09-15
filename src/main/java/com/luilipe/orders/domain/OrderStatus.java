@@ -1,4 +1,4 @@
-package M06_Enumeracao_e_Composicao.ClientOrder.entities;
+package com.luilipe.orders.domain;
 
 public enum OrderStatus {
     PENDING_PAYMENT,

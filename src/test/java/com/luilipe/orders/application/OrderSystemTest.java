@@ -1,10 +1,10 @@
-package M06_Enumeracao_e_Composicao.ClientOrder.application;
+package com.luilipe.orders.application;
 
-import M06_Enumeracao_e_Composicao.ClientOrder.entities.Client;
-import M06_Enumeracao_e_Composicao.ClientOrder.entities.Order;
-import M06_Enumeracao_e_Composicao.ClientOrder.entities.OrderItem;
-import M06_Enumeracao_e_Composicao.ClientOrder.entities.OrderStatus;
-import M06_Enumeracao_e_Composicao.ClientOrder.entities.Product;
+import com.luilipe.orders.domain.Client;
+import com.luilipe.orders.domain.Order;
+import com.luilipe.orders.domain.OrderItem;
+import com.luilipe.orders.domain.OrderStatus;
+import com.luilipe.orders.domain.Product;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -13,7 +13,7 @@ import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 
-public class ClientOrderAutomaticTest {
+public class OrderSystemTest {
 
     public static void main(String[] args) throws Exception {
         testOrderCalculations();
